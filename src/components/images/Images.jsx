@@ -10,7 +10,7 @@ export default function Images({ isUsed, isPunching }) {
     // RETURN
     return (
       <div className="bag-image-container">
-        {/* PARAIT ILLOGIQUE MAIS AVEC isGameOver c'est le bon ordre a mettre, parce que les deux sont false donc il va afficher le nouveauSac et pas sacKC */}
+        {/* PARAIT ILLOGIQUE MAIS AVEC isFF c'est le bon ordre a mettre, parce que les deux sont false donc il va afficher le nouveauSac et pas sacKC */}
         <img src={isUsed ? sacKC : nouveauSac} alt='' className={bagClass}
         />
       </div>
