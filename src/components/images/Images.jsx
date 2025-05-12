@@ -1,12 +1,10 @@
 // IMPORTS
 import './images.css'
-import photo1 from "../../public/img/bag1.png"
-import photo2 from "../../public/img/bag2.png"
 // FONCTIONS
 export default function Images({ isUsed, isPunching }) {
     // DECLA VARIABLES
-    const nouveauSac = photo1
-    const sacKC = photo2
+    const nouveauSac = "../../src/assets/images/bag1.png"
+    const sacKC = "../../src/assets/images/bag2.png"
     // CONDITIONS, SI IS PUNCHING === TRUE, ON AJOUTE LA CLASSE PUNCHED QUI EST LINK DANS LE CSS
     const bagClass = `bag-image ${isPunching ? 'punched' : ''}`;
     // RETURN
