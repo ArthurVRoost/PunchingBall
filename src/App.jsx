@@ -8,7 +8,7 @@ import Images from './components/images/Images'
 function App() {
   // DECLA VARIABLES
   const [vie, setVie] = useState(100)
-  // GAME OVER QUAND VIE EST PLUS PETIT OU EGALE A 0
+  // FF QUAND VIE EST PLUS PETIT OU EGALE A 0
   const isFF = vie <= 0
   // AJOUT POUR L'ANIMATION, DE BASE EN FALSE DONC PAS D'ANIMATION, SE DECLENCHE QUE VIA UN PUNCH
   const [isPunching, setIsPunching] = useState(false)
