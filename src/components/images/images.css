@@ -1,0 +1,10 @@
+.bag-image-container{
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+.bag-image{
+    width: 256px;
+    height: 256px;
+    object-fit: contain;
+}
