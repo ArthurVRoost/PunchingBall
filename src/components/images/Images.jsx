@@ -1,5 +1,6 @@
 // IMPORTS
 import './images.css'
+// FONCTIONS
 export default function Images({ isUsed, isPunching }) {
     const nouveauSac = "../../src/assets/images/bag1.png";
     const sacKC = "../../src/assets/images/bag2.png";

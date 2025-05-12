@@ -4,6 +4,7 @@ import './App.css'
 import Boutons from './components/boutons/Boutons'
 import Progress from './components/progress/Progress'
 import Images from './components/images/Images'
+// FONCTIONS
 function App() {
   const [vie, setVie] = useState(100)
   const isGameOver = vie <= 0

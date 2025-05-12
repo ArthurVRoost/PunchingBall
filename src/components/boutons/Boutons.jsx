@@ -1,6 +1,7 @@
 // IMPORTS
 import './boutons.css'
 import { useState } from 'react'
+// FONCTIONS
 export default function Boutons({text, onClick, className }) {
     return(
         <>
