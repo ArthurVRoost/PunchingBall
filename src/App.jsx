@@ -10,6 +10,7 @@ function App() {
   const [vie, setVie] = useState(100)
   const isGameOver = vie <= 0
   const [isPunching, setIsPunching] = useState(false)
+  // FONCTIONS
   const handlePunch = () => {
     if (isGameOver) return;
 
