@@ -1,3 +1,4 @@
+// IMPORTS
 import './progress.css'
 export default function Progress({vie}) {
     return(

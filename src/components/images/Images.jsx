@@ -1,3 +1,4 @@
+// IMPORTS
 import './images.css'
 export default function Images({ isUsed, isPunching }) {
     const nouveauSac = "../../src/assets/images/bag1.png";
