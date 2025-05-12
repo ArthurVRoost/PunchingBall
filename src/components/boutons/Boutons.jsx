@@ -1,9 +1,9 @@
 import './boutons.css'
 import { useState } from 'react'
-export default function Boutons({text, onClick, className, disabled }) {
+export default function Boutons({text, onClick, className }) {
     return(
         <>
-            <button onClick={onClick} disable={disabled} className={`button ${className}`} > {text} </button>
+            <button onClick={onClick} className={`button ${className}`} > {text} </button>
         </>
     )
 }

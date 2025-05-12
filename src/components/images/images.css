@@ -1,3 +1,14 @@
+@keyframes punch-animation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(15px) translateY(10px); }
+    50% { transform: translateX(-15px) translateY(-10px); }
+    75% { transform: translateX(15px) translateY(10px); }
+    100% { transform: translateX(0) translateY(0px); }
+  }
+  
+  .bag-image.punched {
+    animation: punch-animation 0.4s ease;
+  }
 .bag-image-container{
     display: flex;
     justify-content: center;

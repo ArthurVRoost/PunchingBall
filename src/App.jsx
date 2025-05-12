@@ -6,18 +6,26 @@ import Images from './components/images/Images'
 function App() {
   const [vie, setVie] = useState(100)
   const isGameOver = vie <= 0
-  const handlePunch = () =>{
-    const newVie = Math.max(vie - 10, 0)
-    setVie(newVie)
-  }
-  const handleRestart = () =>{
-    setVie(100)
-  }
+  const [isPunching, setIsPunching] = useState(false)
+  const handlePunch = () => {
+    if (isGameOver) return;
+
+    setIsPunching(true);
+    setTimeout(() => setIsPunching(false), 400); 
+
+    const newVie = Math.max(vie - 10, 0);
+    setVie(newVie);
+  };
+
+  const handleRestart = () => {
+    setVie(100);
+    setIsPunching(false);
+  };
 
   return (
     <>
      <div className='app-container'>
-        <Images isUsed={isGameOver}/>
+        <Images isUsed={isGameOver} isPunching={isPunching}/>
         <Progress vie={vie}/>
         <div className='button-container'>
             {!isGameOver && (
