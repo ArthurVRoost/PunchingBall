@@ -6,6 +6,7 @@ import Progress from './components/progress/Progress'
 import Images from './components/images/Images'
 // FONCTIONS
 function App() {
+  // DECLA VARIABLES
   const [vie, setVie] = useState(100)
   const isGameOver = vie <= 0
   const [isPunching, setIsPunching] = useState(false)
