@@ -36,11 +36,11 @@ function App() {
         <Progress vie={vie}/>
         <div className='button-container'>
           {/* CONDITIONS EVALUATION */}
-          {/* !GAMEOVER TRUE = BOUTON PUNCH */}
+          {/* !GAMEOVER === TRUE, SI LE JEU EST EN COURS => AFFICHE LE BOUTON PUNCH */}
             {!isGameOver && (
               <Boutons text="PUNCH" onClick={handlePunch} className='button-punch'/>
             )}
-            {/* GAMEOVER TRUE = BOUTON RESTART */}
+            {/* GAMEOVER === TRUE, SI LE JEU EST TERMINE => AFFICHE LE BOUTON RESTART */}
             {isGameOver && (
             <Boutons text="RESTART" onClick={handleRestart} className='button-restart'/>
             )}

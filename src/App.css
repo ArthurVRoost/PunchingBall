@@ -22,22 +22,16 @@ body{
   cursor: pointer;
 }
 .button-punch{
-  background-color: #2563eb;
+  background-color: #05b242;
 }
 .button-punch:hover{
-  background-color: #1d4ed8;
-}
-.button-punch:active{
-  background-color: #1e40af;
+  background-color: #077420;
 }
 .button-restart{
-  background-color: #16a34a;
+  background-color: #f10505;
 }
 .button-restart:hover{
-  background-color: #15803d;
-}
-.button-restart:active{
-  background-color: #166534;
+  background-color: #80151e;
 }
 .button-container{
   display: flex;
