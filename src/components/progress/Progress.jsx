@@ -2,6 +2,7 @@
 import './progress.css'
 // FONCTIONS
 export default function Progress({vie}) {
+    // RETURN
     return(
         <>
         <div className='progress-bar-container'>

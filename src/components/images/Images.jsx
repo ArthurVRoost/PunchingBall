@@ -7,7 +7,8 @@ export default function Images({ isUsed, isPunching }) {
     const sacKC = "../../src/assets/images/bag2.png";
   
     const bagClass = `bag-image ${isPunching ? 'punched' : ''}`;
-    
+
+    // RETURN
     return (
       <div className="bag-image-container">
         <img 
